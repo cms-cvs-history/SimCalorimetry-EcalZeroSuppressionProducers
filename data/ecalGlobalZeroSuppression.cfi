@@ -1,0 +1,8 @@
+module ecalGlobalZeroSuppression = EcalZeroSuppressionProducer
+{
+   string digiProducer   = "ecaldigi"
+   string EBdigiCollection = ""
+   string EEdigiCollection = ""  
+   untracked double glbBarrelThreshold = 3.
+   untracked double glbEndcapThreshold = 3.
+}
