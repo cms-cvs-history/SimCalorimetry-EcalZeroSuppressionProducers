@@ -1,6 +1,6 @@
 module esZeroSuppression = ESZeroSuppressionProducer
 {
- string digiProducer   = "ecaldigi"
+ string digiProducer   = "ecalUnsuppressedDigis"
  string ESdigiCollection = ""
  string ESZSdigiCollection = ""
  untracked int32 ESGain = 1
