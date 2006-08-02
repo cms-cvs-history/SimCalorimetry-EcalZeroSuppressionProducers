@@ -1,0 +1,11 @@
+module ecalPreshowerDigis = ESZeroSuppressionProducer
+{
+ string digiProducer   = "ecalUnsuppressedDigis"
+ string ESdigiCollection = ""
+ string ESZSdigiCollection = ""
+ untracked int32 ESGain = 1
+ untracked double ESNoiseSigma = 3.
+ untracked int32 ESBaseline = 1000
+ untracked double ESMIPADC = 9.
+ untracked double ESMIPkeV = 78.47
+}
