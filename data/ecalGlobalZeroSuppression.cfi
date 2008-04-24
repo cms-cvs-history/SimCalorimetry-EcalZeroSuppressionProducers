@@ -1,6 +1,6 @@
-module ecalGlobalZeroSuppression = EcalZeroSuppressionProducer
+module simEcalGlobalZeroSuppression = EcalZeroSuppressionProducer
 {
-   string digiProducer   = "ecalUnsuppressedDigis"
+   string digiProducer   = "simEcalUnsuppressedDigis"
    string EBdigiCollection = ""
    string EEdigiCollection = ""  
    string EBZSdigiCollection = ""
